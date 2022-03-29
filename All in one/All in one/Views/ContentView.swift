@@ -11,6 +11,7 @@ struct ContentView: View {
     @State var gmail=""
     @State var password=""
     var body: some View {
+        NavigationView{
         ZStack{
     
             Color.black
@@ -23,24 +24,35 @@ struct ContentView: View {
                     .background(Color.gray) .textFieldStyle(RoundedBorderTextFieldStyle())
 
             TextField("Your password",text:$gmail).background(Color.gray) .textFieldStyle(RoundedBorderTextFieldStyle())
-                Text("Log in")
-                    .font(.title)
-                    .fontWeight(.thin)
-                    .foregroundColor(Color.white)
                 
+                NavigationLink(destination:brandview()) {
+                
+                        Text("Confirm")
+                            .font(.title)
+                            .fontWeight(.light)
+                            .foregroundColor(Color.white)
+                    
                    
-                Spacer()
+            
+                }
+                .background(Color.gray)
+                   
+            Spacer()
                 Text("Forgot password?") .font(.title)
                     .fontWeight(.thin)
                     .foregroundColor(Color.white)
+                Spacer()
+              
                 
             }
         }.ignoresSafeArea()
     }
 }
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        
     }
 }
