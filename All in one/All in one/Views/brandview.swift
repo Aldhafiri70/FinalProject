@@ -12,17 +12,22 @@ struct brandview: View {
 brands(brandimagename: "adidas"),
 brands(brandimagename: "Rolex"),brands(brandimagename: "Rchard mille"),brands(brandimagename: "BMW"),
 brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
-    
     var body: some View {
+        ZStack{
+            Color.red
+                .edgesIgnoringSafeArea(.all)
         List(brandsArray, id: \.id){brands in
             VStack{
             
                 Image("\(brands.brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
-                
                
-            }
-        }
+            } .listRowBackground(Color.red)
+        }.listStyle(.automatic)
+               
+        
+       
     }
+}
 }
 struct brandview_Previews: PreviewProvider {
     static var previews: some View {

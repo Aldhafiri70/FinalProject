@@ -23,7 +23,7 @@ struct ContentView: View {
             TextField("Your email",text:$gmail)
                     .background(Color.gray) .textFieldStyle(RoundedBorderTextFieldStyle())
 
-            TextField("Your password",text:$gmail).background(Color.gray) .textFieldStyle(RoundedBorderTextFieldStyle())
+                TextField("Your password",text:$gmail).background(Color.white) .textFieldStyle(RoundedBorderTextFieldStyle())
                 
                 NavigationLink(destination:brandview()) {
                 
