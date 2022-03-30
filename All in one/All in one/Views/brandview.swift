@@ -13,20 +13,22 @@ brands(brandimagename: "adidas"),
 brands(brandimagename: "Rolex"),brands(brandimagename: "Rchard mille"),brands(brandimagename: "BMW"),
 brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
     var body: some View {
+        NavigationView{
         ZStack{
-            Color.red
+            (Color("primary"))
                 .edgesIgnoringSafeArea(.all)
         List(brandsArray, id: \.id){brands in
             VStack{
-            
+                NavigationLink(destination:Nike()){
                 Image("\(brands.brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
-               
-            } .listRowBackground(Color.red)
-        }.listStyle(.automatic)
+                }
+            }.listRowBackground(Color("primary"))
+        }.listStyle(.plain)
                
         
        
     }
+}
 }
 }
 struct brandview_Previews: PreviewProvider {
