@@ -14,6 +14,7 @@
 		A02B2FA927F0F9E30027867E /* brandview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B2FA827F0F9E30027867E /* brandview.swift */; };
 		A0800ACF27F3B324004F4C07 /* Brandsstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0800ACE27F3B324004F4C07 /* Brandsstruct.swift */; };
 		A0D4634D27F4BE4000981B37 /* Nike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4634C27F4BE4000981B37 /* Nike.swift */; };
+		A0E585EF27F677F400031AC4 /* adidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E585EE27F677F400031AC4 /* adidas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A02B2FA827F0F9E30027867E /* brandview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brandview.swift; sourceTree = "<group>"; };
 		A0800ACE27F3B324004F4C07 /* Brandsstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brandsstruct.swift; sourceTree = "<group>"; };
 		A0D4634C27F4BE4000981B37 /* Nike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike.swift; sourceTree = "<group>"; };
+		A0E585EE27F677F400031AC4 /* adidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adidas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				A02B2F9A27EF0E230027867E /* ContentView.swift */,
 				A02B2FA827F0F9E30027867E /* brandview.swift */,
 				A0D4634C27F4BE4000981B37 /* Nike.swift */,
+				A0E585EE27F677F400031AC4 /* adidas.swift */,
 				A0800ACD27F3B2DB004F4C07 /* Models */,
 			);
 			path = Views;
@@ -165,6 +168,7 @@
 				A0800ACF27F3B324004F4C07 /* Brandsstruct.swift in Sources */,
 				A02B2F9B27EF0E230027867E /* ContentView.swift in Sources */,
 				A02B2FA927F0F9E30027867E /* brandview.swift in Sources */,
+				A0E585EF27F677F400031AC4 /* adidas.swift in Sources */,
 				A0D4634D27F4BE4000981B37 /* Nike.swift in Sources */,
 				A02B2F9927EF0E230027867E /* All_in_oneApp.swift in Sources */,
 			);

@@ -15,14 +15,14 @@ brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
     var body: some View {
         NavigationView{
         ZStack{
-            (Color("primary"))
+            (Color.black)
                 .edgesIgnoringSafeArea(.all)
         List(brandsArray, id: \.id){brands in
             VStack{
                 NavigationLink(destination:Nike()){
                 Image("\(brands.brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                 }
-            }.listRowBackground(Color("primary"))
+            }.listRowBackground(Color.gray)
         }.listStyle(.plain)
                
         
