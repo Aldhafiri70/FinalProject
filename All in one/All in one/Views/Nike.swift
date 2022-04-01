@@ -56,11 +56,11 @@ struct Nike: View {
                 Text("Purple Sekleton")
                     .font(.headline)
                 Text("Price: 117KD").font(.headline)
-                Text("Release date:1/5/2022").font(.headline)
+                Text("Release date:1/6/2022").font(.headline)
                 }
             }
     }
-}
+            }
 }
     }
 }

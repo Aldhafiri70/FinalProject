@@ -34,5 +34,6 @@ brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
 struct brandview_Previews: PreviewProvider {
     static var previews: some View {
         brandview()
+        
     }
 }

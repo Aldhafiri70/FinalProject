@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A027E3CE27F7B7D40099B30B /* Rolex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027E3CD27F7B7D40099B30B /* Rolex.swift */; };
 		A02B2F9927EF0E230027867E /* All_in_oneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B2F9827EF0E230027867E /* All_in_oneApp.swift */; };
 		A02B2F9B27EF0E230027867E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B2F9A27EF0E230027867E /* ContentView.swift */; };
 		A02B2F9D27EF0E250027867E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02B2F9C27EF0E250027867E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A027E3CD27F7B7D40099B30B /* Rolex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rolex.swift; sourceTree = "<group>"; };
 		A02B2F9527EF0E230027867E /* All in one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All in one.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02B2F9827EF0E230027867E /* All_in_oneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_in_oneApp.swift; sourceTree = "<group>"; };
 		A02B2F9A27EF0E230027867E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				A02B2FA827F0F9E30027867E /* brandview.swift */,
 				A0D4634C27F4BE4000981B37 /* Nike.swift */,
 				A0E585EE27F677F400031AC4 /* adidas.swift */,
+				A027E3CD27F7B7D40099B30B /* Rolex.swift */,
 				A0800ACD27F3B2DB004F4C07 /* Models */,
 			);
 			path = Views;
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0800ACF27F3B324004F4C07 /* Brandsstruct.swift in Sources */,
+				A027E3CE27F7B7D40099B30B /* Rolex.swift in Sources */,
 				A02B2F9B27EF0E230027867E /* ContentView.swift in Sources */,
 				A02B2FA927F0F9E30027867E /* brandview.swift in Sources */,
 				A0E585EF27F677F400031AC4 /* adidas.swift in Sources */,
