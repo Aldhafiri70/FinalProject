@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
 struct brands:Identifiable{
   var id = UUID()
     var brandimagename: String
     
 }
+
