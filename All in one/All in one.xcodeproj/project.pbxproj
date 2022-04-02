@@ -14,6 +14,9 @@
 		A02B2FA027EF0E250027867E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02B2F9F27EF0E250027867E /* Preview Assets.xcassets */; };
 		A02B2FA927F0F9E30027867E /* brandview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B2FA827F0F9E30027867E /* brandview.swift */; };
 		A0800ACF27F3B324004F4C07 /* Brandsstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0800ACE27F3B324004F4C07 /* Brandsstruct.swift */; };
+		A08525E827F8C2C60084A612 /* RhicardMille.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08525E727F8C2C60084A612 /* RhicardMille.swift */; };
+		A08525EA27F8CDB80084A612 /* BMW.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08525E927F8CDB80084A612 /* BMW.swift */; };
+		A08525EC27F8CE0C0084A612 /* Mercedes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08525EB27F8CE0C0084A612 /* Mercedes.swift */; };
 		A0D4634D27F4BE4000981B37 /* Nike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4634C27F4BE4000981B37 /* Nike.swift */; };
 		A0E585EF27F677F400031AC4 /* adidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E585EE27F677F400031AC4 /* adidas.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +30,9 @@
 		A02B2F9F27EF0E250027867E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A02B2FA827F0F9E30027867E /* brandview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brandview.swift; sourceTree = "<group>"; };
 		A0800ACE27F3B324004F4C07 /* Brandsstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brandsstruct.swift; sourceTree = "<group>"; };
+		A08525E727F8C2C60084A612 /* RhicardMille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhicardMille.swift; sourceTree = "<group>"; };
+		A08525E927F8CDB80084A612 /* BMW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMW.swift; sourceTree = "<group>"; };
+		A08525EB27F8CE0C0084A612 /* Mercedes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercedes.swift; sourceTree = "<group>"; };
 		A0D4634C27F4BE4000981B37 /* Nike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike.swift; sourceTree = "<group>"; };
 		A0E585EE27F677F400031AC4 /* adidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adidas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +91,9 @@
 				A0D4634C27F4BE4000981B37 /* Nike.swift */,
 				A0E585EE27F677F400031AC4 /* adidas.swift */,
 				A027E3CD27F7B7D40099B30B /* Rolex.swift */,
+				A08525E727F8C2C60084A612 /* RhicardMille.swift */,
+				A08525E927F8CDB80084A612 /* BMW.swift */,
+				A08525EB27F8CE0C0084A612 /* Mercedes.swift */,
 				A0800ACD27F3B2DB004F4C07 /* Models */,
 			);
 			path = Views;
@@ -169,11 +178,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0800ACF27F3B324004F4C07 /* Brandsstruct.swift in Sources */,
+				A08525EC27F8CE0C0084A612 /* Mercedes.swift in Sources */,
 				A027E3CE27F7B7D40099B30B /* Rolex.swift in Sources */,
 				A02B2F9B27EF0E230027867E /* ContentView.swift in Sources */,
 				A02B2FA927F0F9E30027867E /* brandview.swift in Sources */,
 				A0E585EF27F677F400031AC4 /* adidas.swift in Sources */,
+				A08525E827F8C2C60084A612 /* RhicardMille.swift in Sources */,
 				A0D4634D27F4BE4000981B37 /* Nike.swift in Sources */,
+				A08525EA27F8CDB80084A612 /* BMW.swift in Sources */,
 				A02B2F9927EF0E230027867E /* All_in_oneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

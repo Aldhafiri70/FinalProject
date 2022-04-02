@@ -13,7 +13,7 @@ brands(brandimagename: "adidas"),
 brands(brandimagename: "Rolex"),brands(brandimagename: "Rchard mille"),brands(brandimagename: "BMW"),
 brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
     var body: some View {
-        NavigationView{
+        
             ZStack{
                 (Color.black)
                     .edgesIgnoringSafeArea(.all)
@@ -24,7 +24,7 @@ brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
 //                    }
 //                }.listRowBackground(Color.gray)
 //            }.listStyle(.plain)
-//
+                ScrollView(){
                 VStack{
                     
                     NavigationLink(destination:Nike()){
@@ -36,14 +36,19 @@ brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
                     NavigationLink(destination:Rolex()){
             Image("\(brandsArray[2].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                 }
-                    NavigationLink(destination:Rolex()){
+                    NavigationLink(destination:RhicardMille()){
             Image("\(brandsArray[3].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                 }
-                    
-                    
-                }.navigationBarHidden(true)
-            
-            }
+                    NavigationLink(destination:BMW()){
+            Image("\(brandsArray[4].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
+                }
+                    NavigationLink(destination:Mercedes()){
+            Image("\(brandsArray[5].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
+                }
+                }
+            }.navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
+    
         }
         
         }
