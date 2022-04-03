@@ -31,12 +31,12 @@ struct ContentView: View {
                             .font(.title)
                             .fontWeight(.light)
                             .foregroundColor(Color.white)
-                    
-                   
+                            .padding(5)
+                            
             
                 }
                 .background(Color.gray)
-                   
+                .cornerRadius(10)
             Spacer()
                 Text("Forgot password?") .font(.title)
                     .fontWeight(.thin)

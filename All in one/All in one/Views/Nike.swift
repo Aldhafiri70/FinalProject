@@ -11,7 +11,7 @@ struct Nike: View {
     var body: some View {
         ScrollView(){
             ZStack{
-                (Color("prim2"))
+                Color("prim2").edgesIgnoringSafeArea(.all)
         VStack(alignment: .leading){
         HStack{
             Image("Nike 1").resizable().scaledToFit().frame(width:200, height: 200)

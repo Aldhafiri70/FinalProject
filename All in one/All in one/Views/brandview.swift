@@ -11,7 +11,7 @@ struct brandview: View {
     var brandsArray = [brands(brandimagename: "Nike"),
 brands(brandimagename: "adidas"),
 brands(brandimagename: "Rolex"),brands(brandimagename: "Rchard mille"),brands(brandimagename: "BMW"),
-brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
+brands(brandimagename: "Mercedes"),]
     var body: some View {
         
             ZStack{
@@ -25,26 +25,68 @@ brands(brandimagename: "Mercedes"),brands(brandimagename: "Rolls Royce"),]
 //                }.listRowBackground(Color.gray)
 //            }.listStyle(.plain)
                 ScrollView(){
-                VStack{
-                    
+                    VStack(alignment: .leading){
+                    HStack{
                     NavigationLink(destination:Nike()){
             Image("\(brandsArray[0].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                     }
+                        Text("NIKE")
+                            .font(.title)
+                            .foregroundColor(Color.orange)
+                        Spacer()
+                Image(systemName:"chevron.right.circle").foregroundColor(Color.white)
+                    }
+                    HStack{
                     NavigationLink(destination:adidas()){
             Image("\(brandsArray[1].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                 }
+                        Text("Adidas")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                        Spacer()
+                Image(systemName:"chevron.right.circle").foregroundColor(Color.white)
+                    }
+                    HStack{
                     NavigationLink(destination:Rolex()){
             Image("\(brandsArray[2].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                 }
+                        Text("Rolex")
+                            .font(.title)
+                            .foregroundColor(Color.green)
+                        Spacer()
+                Image(systemName:"chevron.right.circle").foregroundColor(Color.white)
+                    }
+                    HStack{
                     NavigationLink(destination:RhicardMille()){
             Image("\(brandsArray[3].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                 }
+                        Text("RM")
+                            .font(.title)
+                            .foregroundColor(Color.gray)
+                        Spacer()
+                Image(systemName:"chevron.right.circle").foregroundColor(Color.white)
+                    }
+                    HStack{
                     NavigationLink(destination:BMW()){
             Image("\(brandsArray[4].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                 }
+                        Text("BMW")
+                            .font(.title)
+                            .foregroundColor(Color.blue)
+                        Spacer()
+                Image(systemName:"chevron.right.circle").foregroundColor(Color.white)
+                        
+                    }
+                        HStack{
                     NavigationLink(destination:Mercedes()){
             Image("\(brandsArray[5].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
                 }
+                            Text("Mercedes")
+                                .font(.title)
+                                .foregroundColor(Color("prim6"))
+                            Spacer()
+                    Image(systemName:"chevron.right.circle").foregroundColor(Color.white)
+                        }
                 }
             }.navigationBarHidden(true)
             .navigationBarBackButtonHidden(true)
