@@ -38,13 +38,13 @@ struct ContentView: View {
                 .background(Color.gray)
                 .cornerRadius(10)
             Spacer()
-                Text("Forgot password?") .font(.title)
-                    .fontWeight(.thin)
-                    .foregroundColor(Color.white)
+                Text("Forgot password?") .font(.title2)
+                    .fontWeight(.light)
+                    .foregroundColor(Color.blue)
                 Spacer()
               
                 
-            }
+            }.padding()
         }.ignoresSafeArea()
     }
 }

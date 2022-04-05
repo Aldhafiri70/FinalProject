@@ -26,7 +26,10 @@ brands(brandimagename: "Mercedes"),]
 //            }.listStyle(.plain)
                 ScrollView(){
                     VStack(alignment: .leading){
-            
+                        Text("Brands")
+                                                .font(.largeTitle)
+                                                .fontWeight(.semibold)
+                                                .foregroundColor(Color.white)
                     NavigationLink(destination:Nike()){
                         HStack{
             Image("\(brandsArray[0].brandimagename)").resizable().scaledToFit().frame(width:150, height: 150)
